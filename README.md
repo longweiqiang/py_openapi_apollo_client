@@ -19,6 +19,9 @@ pip install py_openapi_apollo_client
 ### 二次开发
 继承PrivateApolloClient类后，增加自己的方法即可
 
+### 官方接口文档
+[Apollo开放平台](https://github.com/ctripcorp/apollo/wiki/Apollo%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0)
+
 ### 使用
 ```python
 from py_openapi_apollo_client.openapi_apollo_client import PrivateApolloClient
