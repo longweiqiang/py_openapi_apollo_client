@@ -13,7 +13,7 @@ python3.x
 
 ### 安装
 ```shell script
-pip install py_openapi_apollo_client
+pip install py-openapi-apollo-client
 ```
 
 ### 二次开发
@@ -24,7 +24,7 @@ pip install py_openapi_apollo_client
 
 ### 使用
 ```python
-from py_openapi_apollo_client.openapi_apollo_client import PrivateApolloClient
+from py_openapi_apollo_client.apollo_client import PrivateApolloClient
 
 client = PrivateApolloClient(app_id='test', portal_address='http://test.com', authorization='xxx')
 print(client.get_namespace_items_key(key='test.switch'))
